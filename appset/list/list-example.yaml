@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/gasida/cicd-study.git
+        repoURL: https://github.com/AlarmKimKB/cicd-study.git
         targetRevision: HEAD
         path: appset/list/guestbook/{{.cluster}}
       destination:
